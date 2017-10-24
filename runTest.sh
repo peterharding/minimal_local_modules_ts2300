@@ -15,6 +15,8 @@ done
 
 rm -rf node_modules || EXIT_STATUS=$?
 npm install || EXIT_STATUS=$?
+
+rm -rf build || EXIT_STATUS=$?
 npm run build || EXIT_STATUS=$?
 
 exit $EXIT_STATUS

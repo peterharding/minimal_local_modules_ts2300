@@ -1,6 +1,9 @@
 ## Usage:
+
 `nvm install v8.7`
+
 `nvm use`
+
 `./runTest.sh`
 
 ## Expected:

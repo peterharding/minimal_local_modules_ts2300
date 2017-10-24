@@ -2,13 +2,14 @@
   "name": "deptwo",
   "version": "1.0.0",
   "description": "",
+  "types": "build/index.js",
   "files": [
     "build/index.d.ts",
     "build/index.js",
     "build/src/two.js",
     "build/src/two.d.ts"
   ],
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "build": "tsc"
   },
