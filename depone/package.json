@@ -1,0 +1,21 @@
+{
+  "name": "depone",
+  "version": "1.0.0",
+  "description": "",
+  "files": [
+    "build/index.d.ts",
+    "build/index.js",
+    "build/src/one.js",
+    "build/src/one.d.ts"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mongoose": "^4.7.24",
+    "typescript": "^2.5.3"
+  }
+}
