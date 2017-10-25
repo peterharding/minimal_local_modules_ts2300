@@ -1,0 +1,18 @@
+{
+  "name": "projectone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/src/trouble.js",
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "author": "Peter Harding",
+  "license": "ISC",
+  "dependencies": {
+    "depone": "^1.0.0",
+    "deptwo": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.5.3"
+  }
+}

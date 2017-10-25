@@ -1,18 +1,5 @@
 {
-  "name": "minimal_local_modules_ts2300",
-  "version": "1.0.0",
-  "description": "",
-  "main": "build/src/trouble.js",
-  "scripts": {
-    "build": "tsc"
-  },
-  "author": "Peter Harding",
-  "license": "ISC",
-  "dependencies": {
-    "depone": "file:depone",
-    "deptwo": "file:deptwo"
-  },
-  "devDependencies": {
-    "typescript": "^2.5.3"
-  }
+	"devDependencies": {
+		"lerna": "^2.4.0"
+	}
 }
