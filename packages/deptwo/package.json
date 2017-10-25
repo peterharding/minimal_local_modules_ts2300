@@ -2,7 +2,7 @@
   "name": "deptwo",
   "version": "1.0.0",
   "description": "",
-  "types": "build/index.js",
+  "types": "build/index.d.ts",
   "files": [
     "build/index.d.ts",
     "build/index.js",
@@ -11,7 +11,7 @@
   ],
   "main": "build/index.js",
   "scripts": {
-    "build": "tsc"
+    "prepublish": "tsc"
   },
   "author": "",
   "license": "ISC",
