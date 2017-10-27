@@ -9,10 +9,12 @@
   "author": "Peter Harding",
   "license": "ISC",
   "dependencies": {
-    "depone": "file:depone",
-    "deptwo": "file:deptwo"
+    "dep-one": "file:depone/build",
+    "dep-two": "file:deptwo/build",
+    "lodash": "^4.17.4"
   },
   "devDependencies": {
+    "@types/mongoose": "4.7.24",
     "typescript": "^2.5.3"
   }
 }

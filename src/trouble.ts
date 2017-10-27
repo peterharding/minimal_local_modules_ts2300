@@ -1,5 +1,5 @@
-import { OneDocument } from "depone";
-import { TwoDocument } from "deptwo";
+import { OneDocument } from "dep-one";
+import { TwoDocument } from "dep-two";
 
 export class Trouble {
   private oneDoc: OneDocument;

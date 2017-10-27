@@ -2,7 +2,7 @@
   "name": "deptwo",
   "version": "1.0.0",
   "description": "",
-  "types": "build/index.js",
+  "types": "build/index.d.ts",
   "files": [
     "build/index.d.ts",
     "build/index.js",
@@ -17,6 +17,10 @@
   "license": "ISC",
   "devDependencies": {
     "@types/mongoose": "^4.7.24",
+    "postcss": "^6.0.13",
     "typescript": "^2.5.3"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0"
   }
 }
